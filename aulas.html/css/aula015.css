@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+.lista, .lista2{
+    list-style-position:inside; /* Pontinho preto   */
+    list-style-type:circle; /* Pontinho branco   */
+    list-style-type:disc; /* Pontinho preto   */
+    list-style-type:decimal; /* Ao invés de ponto é número  */
+}
+.lista li, .lista2 { /* Especificação normal   */
+    color:green;
+    font-size: 20px;
+    margin-top:10px; /* Espaço entre as linhas    */
+    margin-left:20px; /*Espaço entre a margem da esquerda     */
+}
+.lista .lista3{/* Especificação media   */
+    color:red;
+    font-weight:bold; /* Negrito  */
+}
+.lista li.lista3, .lista2 li.lista3{/* Especificação avançada   */
+    color:orange;
+}
+ol{ /* ol por padrão vem os números na frente, já ul em os pontos   */
+    list-style-position:inside;
+   /*  list-style-type:disc;   Colocando os pontos antes   */
+}
+ol > li{
+    color:red;
+}
+.um{
+    width:500px;
+    height:500px;
+    background-color:red;
+}
+.um > .dois{
+    width:300px;
+    height:300px;
+    background-color:blue;
+}
+.um > .dois > .tres{ /*.um > .tres    */
+    width:200px;
+    height:200px;
+    background-color:green;
+}
+.tres > .quatro{ /*mais detalhadamente(.um > .tres > .quatro)ou (.um > .quatro)   */
+    width:100px;
+    height:100px;
+    background-color:yellow;
+}

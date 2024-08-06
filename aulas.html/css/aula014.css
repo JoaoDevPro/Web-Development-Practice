@@ -1,0 +1,32 @@
+*{
+    margin-top: 0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    
+}
+
+.div2{
+    width: 100%; /*Largura do texto, se deixar em 100% ela se adapta a qualquer dispositivo  */
+    height:auto; /* Altura */
+    /*max-width: 300px;          Largura maxima*/
+    background-color:aqua;
+    text-align: center;
+}
+.div1 {
+    color: black;
+    font-size:23px;
+    font-style:italic;  
+    font-weight:bold;   /*Deixar em negrito(bold)    */
+}
+.div2 p{
+    
+    text-align:left;    /*Alinhar o texto para a esquerda    */
+    font-size:17px;     /*Tamanho da letra    */
+    font-style:normal; 
+    font-weight:normal;   
+    line-height:40px; /* Espaço entre as linhas   */
+    margin-top:30px;  /* Espaço entre o texto e o titulo  */
+
+}

@@ -1,0 +1,13 @@
+#div1 > h1{ /* se eu usar (>) quer dizer que é só pro h1 que estiver dentro do id="div1    */
+    color: aquamarine;  /* o # é usado pra chamar o id  */
+                          /*o id só pode usar uma vez, se for usar tags repetidos é classe   */
+}
+#div2 > h1{
+    color:red
+}
+.div1 > h1{ /* se eu usar (>) quer dizer que é só pro h1 que estiver dentro do div1    */
+    color: aquamarine; /* o (.) é usado para chamar a classe    */
+}
+.div2 > h1{
+    color:red
+}

@@ -1,0 +1,41 @@
+body{
+    height:100% ;
+    
+}
+
+
+h3{
+    color:white;
+    background-color: #A0522D;
+}
+.corpo{
+    margin-left: 20px;
+}
+.img1{
+    margin-top:-20px;
+    margin-bottom: -20px;
+    border: solid #A0522D;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+}
+
+.img2{
+    margin-bottom: -20px;
+    margin-top: -20px;
+    border: solid #A0522D;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+h1{
+    border-bottom: 3px solid #A0522D;
+    border-top: 3px solid #A0522D;
+    border-left: 0px;
+    border-right: 0px;
+
+    color: #A0522D;
+}
+p{
+    margin-bottom: -20px;
+}

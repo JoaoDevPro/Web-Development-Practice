@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+/* 
+Estilizando site
+*/
+
+/*table{
+    width:900px;
+    border-collapse: collapse; collapse(se tiver alguma borda coledindo ela vira uma só)   
+    margin:0 auto;
+}
+table tr td{
+    background-color: gray;
+    height:300px;
+    vertical-align:top ; alinhando o texto para cima 
+    vertical-align:middle; alinhando para o meio
+    vertical-align:bottom; alinhando para baixo
+    border:3px solid black;
+}*/
+.meu-fixed{
+    position: fixed; /* pra a cor acompanhar o scroll de rolagem  */
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+    height: 200px;
+    background:red ;
+}
+.box{
+    width: 100%;
+    height: 1400px;
+    background: green;
+
+}
+.box p{
+    width:400px;
+}
+/*APRENDENDO A UTILIZAR A PROPRIEDADE POSITION   */

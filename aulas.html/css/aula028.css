@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align:center;
+}
+form legend{
+    text-align: center;
+}
+form fieldset{
+    padding: 20px 40px;
+    font-size: 17PX;
+    color: grey;
+    border: 1px solid black;
+}
+form input[type=text]{
+    font-family: tahoma;
+    display: inline-block;
+    margin-top:30px;
+    width:80%;
+    padding: 10px 13px;
+    border: 1px solid grey
+
+}
+
+form textarea{
+    font-family: tahoma;
+    height:140px;
+    margin-top:30px;
+    width:80%;
+    padding: 10px 13px;
+    border: 1px solid grey
+    
+    
+
+}
+form textarea::placeholder{
+    color: grey;
+}
+
+form input[type=text]:focus, form select:focus{
+    outline: 0;
+}
+form select{
+    font-family: tahoma;
+    color: grey;
+    width:calc(80% + 28px);
+    margin-top: 30px;
+    padding:10px 13px;
+    display:inline-block;
+    border: 1px solid grey;
+}
+form h2{
+    margin-top: 10px;
+}
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top:20px;
+}
+.input{
+    margin-left: 13px;
+    font-size:16px;
+    color: gray;
+
+}
+/*
+form select option:nth-of-type(3){
+    color: red;
+}
+*/
+
+/*
+form select option[disabled]{
+    color: red ;
+}
+*/
+form input[type=submit]{
+    margin-top: 50px;
+    text-align:left;
+    border:2px solid black;
+    font-size: 16px;
+    background-color:grey;
+}
+
+

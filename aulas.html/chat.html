@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de vCard com QR Code</title>
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+</head>
+<body>
+  <h2>Preencha o formulário:</h2>
+  <form id="myForm">
+    <label for="name">Nome:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="phone">Telefone:</label><br>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <button type="button" onclick="generateQRCode()">Gerar QR Code</button>
+  </form>
+
+  <div id="qrcode"></div>
+
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

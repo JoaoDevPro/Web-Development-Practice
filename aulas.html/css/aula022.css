@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    /*background:rgba(0, 128, 0, 0.1) ; cor suave*/
+    /*background-image: linear-gradient(to right, rgba(171, 183, 34, 0), rgb(161, 235, 185));  degrade de cores*/
+}
+/*.box{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color:gray; barra de rolagem do lado    
+    overflow: auto;
+*/
+/*.box{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    background-color:gray;    
+    overflow:scroll; barra  de rolagem
+}*/
+.box{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color:gray;    
+    overflow-x: auto; /*hidden é pra deixar o overflow invisivel    */ /* display:none faz a div sumir e não ocupar espaço  */
+    overflow-y: auto;
+
+}
+.box p{
+    width: 500px;
+}

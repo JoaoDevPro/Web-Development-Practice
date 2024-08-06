@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  Pseudoclass 2/3  */
+html,body{
+    height: 100%;
+}
+ul{
+    list-style-position: inside;
+}
+
+/*
+Este vai atacar o segundo li da ul
+ul li:nth-of-type(2){  
+    color: red;
+}*/
+
+/*
+Já este ataca o segundo filho abaixo da ul
+ul li:nth-child(2){ 
+    color: red;
+}
+*/
+
+.box{
+    width: 100%;
+}
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    background-color: red;
+    border:1px solid black;
+}
+
+/* Atacar o último filho da classe box!
+.box div:last-of-type, .box p:last-of-type{
+    background-color: green;
+}
+*/
+
+/*
+.box p:last-of-type{
+    color: aqua;
+}
+*/
+
+/*
+Atacando o último elemento também !
+.box div:last-of-type{
+    color:aqua
+}
+*/
+
+/*
+Atacar todas as div que não tenham a palavra one !
+.box div:not(.one){
+    background-color: blue;
+}
+*/
+
+/*
+Atacar o nque está vazio
+p:empty{
+    width:200px ;
+    height: 200px;
+    background-color: orange;
+}
+*/
+
+/*
+Pegue todas as classe do p e insira o conteúdo abaixo
+.p::after{
+    content: 'Victor';
+    
+}
+*/
+
+/*
+Acrescentar o seguinte conteúdo antes
+.p::before{
+    content: 'DJ';
+}
+*/
+
+

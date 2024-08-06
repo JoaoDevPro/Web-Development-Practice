@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:"Minha fonte";
+    src:url(../Honk-Regular.ttf);
+    
+}
+
+html,body{
+    height: 100%;
+    font-family: "Minha fonte";
+    font-size: 50px;
+}
+form *{ 
+    font-family: "Minha fonte";
+    font-size: 50px;
+}
+
+/*
+!!importanto fonte depois que baixamos e copiamos na mesma pasta que o indexhtml*/
+
+
+
+/* !important serve pra quebrar o nivel de esquecificações e fazer aplicar de qualquer maneira  
+.box p{
+    font-family: "Minha fonte";
+    font-size: 50px;
+    
+}
+.text{
+    font-family:tahoma !important; 
+}
+   */

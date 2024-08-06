@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0
+}
+/*
+Estilo para o conteúdo do site 
+*/
+html,body{
+    height:100%;
+}
+.tipo1{
+    color:yellow;
+}
+.link_{
+    font-size:30px;
+}
+.tipo2{
+    font-size:40px;
+}

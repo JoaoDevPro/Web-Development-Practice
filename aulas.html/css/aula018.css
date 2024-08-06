@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    height:100%;
+}
+.center{
+   /* box-sizing:border-box; espaçamento dentro da caixa    */
+   
+    width:1280px;
+    margin:0 auto;
+    /*padding: 30px;*/
+    background-color: gray;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:50px;
+   
+}
+.artigo{
+    /*margin-top: 50px; a margem de sima seja 50px */
+   /* width: 600px;*/
+    /*margin-bottom: 50PX;  margem de baixo do texto    */
+   /* margin-right: 80px;
+    margin-left:80px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    margin: 50px 30px 50px 30px; pra não ficar escrevendo toda essa parte de cima é só por no sentido horario  
+    margin: 40px 30px; Vertical e orizontal automatica    */
+    margin-bottom: 40px;
+
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*  Mais sobre backgrounds, text-align e exercícios  */
+.teste,.teste1,.teste2{
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 300px;
+    height: 30px;
+    /*background-color: blue;*/
+}
+.teste1{
+    background-color: gray;
+}
+
+.teste2{
+    background-color: brown;
+}
+
+/* .teste:hover{ Pra mudar qualquer coisa quando o mouse passar em cima  
+    
+    background-color: yellow;
+
+} */
+
+
+/*.teste:active{ Se pressionar o mouse, qualquer coisa muda   
+    background-color: aqua;
+}*/
+
+/*.teste:focus{  Quando clicarmos no icone qualquer coisa pode mudar   
+    background-color: red;
+}
+
+.textarea{
+    display: block;
+    width: 600px;
+    height: 400px;
+}
+*/ 
+/*.link1:visited{  Quando link é visitado fica com a cor definida abaixo  
+    color: blueviolet;
+
+}
+*/
+/*.link1:link{ Aplicar a cor no link devinida abaixo   
+    color: orange;
+}
+*/

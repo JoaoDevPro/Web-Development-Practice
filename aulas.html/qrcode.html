@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCODE</title>
+    <link rel="stylesheet" href="qrcode.css">
+   
+</head>
+<body>
+    <fieldset>
+        <h1>Contact QR Code Generator</h1>
+        <br>
+        <div class="corpo">
+            <div id="formulario">
+                        <div class="name">
+                            <label for="name">Full Name <p>*</p></label>
+                            <br>
+                            <input id="name" type="name" required placeholder="Ex: Name and Lastname">
+                            <br>
+                        </div>
+
+                        <div class="number">
+                            <label for="number">Numero <p>*</p></label>
+                            <br>
+                            <input id="number" type="tel" required placeholder="Ex: +55 (99) 99999-9999">
+                            <br>
+                        </div>
+
+                            <div class="email">
+                            <label for="email">E-mail <p>*</p></label>
+                            <br>
+                            <input id="email" type="email" required placeholder="Ex: email@.com">
+                            <br>
+                        </div>
+
+                        <div class="post">
+                            <label for="post">Cargo <p>*</p></label>
+                            <br>
+                            <input id="post" type="post" required placeholder="Ex: Gerente de processos | TI">
+                        </div>
+                            <br>
+                        <p class="obrigatorio"><p>*</p> Campo obrigatórtio</p>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="qrcode-container" style="display: inline-block;" alt="">
+                        <a id="download-qrcode" download="contato_qrcode_png">baixar qr code</a>
+            
+                    <br>
+                <button onclick="gerar_qr_code()" id="gerar_qrcode">Generate</button> <!--onclick="gerar_qr_code()"-->
+                    </div>
+        </div>
+          
+        <!--<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>-->
+        <!--<script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+
+
+
+        <script src= "qrcode.js"></script>
+        <div id="qrcode" class="qrCode"></div>
+    </fieldset>
+</body>
+</html>

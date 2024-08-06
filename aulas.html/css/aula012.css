@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*.div1{
+    color: blue;
+}
+/* estilo para o conteudo do site   */
+.artigo{
+    width:1280px;
+    background-color:aqua;
+    
+    margin: 40px auto;
+    text-align:center; /*Alinhar o artigo    */
+
+
+}
+.artigo h1{
+    color:blue;
+    font-size: 20px;
+    font-family:"Times New Roman",tahoma;
+    font-style:italic;
+    font-weight:normal;
+    /*font-variant:small-caps;*/
+}
+.artigo p{
+    color:gray;
+    font-size: 16px; /*Tamanho da letra  */
+    font-family:tahoma; /*estilo da fonte  */
+    font-style:normal; /*estilo da fonte(normal, italico)    */
+    font-weight:bold; /*Tamanho ficar em negrito */
+    margin:12px; /* Tamanho do espaço do texto para o titulo sentido relogio  */
+    line-height:1; /*Tamanho do espaço da quebra de linha   */
+    margin-top:40px;
+    text-align:left; /*Realinhando o texto do artigo para a esquerda*/
+}

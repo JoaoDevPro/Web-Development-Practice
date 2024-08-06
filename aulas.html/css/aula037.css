@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100%;
+    background-color: #FFFACD;
+    background-image: url(../cabecalhos_back.png);
+    background-repeat: repeat-y;
+    padding: 0px 150px 150px 150px;
+    text-indent: 50px;
+}
+.importante{
+    background-color:#DAA520;
+    color: aliceblue;
+}
+h1{
+    color: #8B4513;
+}
+/*img{
+    height: 100%;
+}
+*/
+p{
+    font-style:inherit;
+}
+.container{
+    display: flex;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:orangered;
+    border-style: dashed;
+}
+/*
+.img{
+    background-image: url(/cabecalhos_back.png);
+    width: 22vh;
+    height: 100vh;
+    
+    
+}
+*/

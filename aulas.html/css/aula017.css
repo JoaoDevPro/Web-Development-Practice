@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+}
+.header{
+    width:100%;
+    min-width:1280px;
+    height:200px;
+    background:gray;
+}
+.article{
+    margin:auto;
+    width:1000px;
+    height:10px; /*max e min sempre serão prioridade    */
+    max-height:20%;
+    min-height:50%;
+    background:red;
+}

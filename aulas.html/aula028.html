@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/aula028.css">
+        <title>rolisheet</title>
+
+    </head>
+    <body>
+        <form>
+            <fieldset> <!--Linha em volta do formulário-->
+                <legend>Meu formulário</legend>
+                <div></div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+                <div><input type="text" name="nome" placeholder="Digite o seu e-mail"></div>
+                <div>
+                    <select name="Lista">
+                        <option disabled selected>Qual sua idade</option> <!--Opções de idade-->
+                        <option>20</option>
+                        <option>25+</option>
+                        <option>40+</option>
+                    </select>
+                    
+                    
+                </div>
+                <h2>Qual sua cidade?</h2>
+                <div class="input"> <!--opções de bolinha, só uma alternativa por pergunta -->
+                <div class="radio"></div> 
+                <div>
+                    <input type="radio" name="cidade" value=""><span>  Florianópolis</span>
+                </div>
+
+                <div>
+                    <input type="radio" name="cidade" value=""><span>  São Paulo</span>
+                </div>
+
+                <div>
+                    <input type="radio" name="cidade" value=""><span>  Rio de Janeiro</span>
+                </div>
+                </div>
+
+
+                <h2>O que você gosta de comer</h2>
+                <div class="input"> <!--opções de quadradinho pra escolher, diferença é que pode selecionar quantas vezes quiser-->
+                <div class="radio"></div> 
+                <div>
+                    <input type="checkbox" name="cidade" value=""><span>  Lasanha</span>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="cidade" value=""><span>  torta</span>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="cidade" value=""><span>  bolo</span>
+                </div>
+                </div>
+                <div>
+                <textarea placeholder="Possui alguma observação"></textarea>
+                </div>  
+                
+                <div>
+                    <input type="submit" name="ação" value="Enviar!">
+                </div>
+                
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>

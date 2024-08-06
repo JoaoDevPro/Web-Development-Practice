@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+/*Estilizando o site    */
+html, body{
+    height: 100%;
+}
+a[href="http://www.google.com"]{
+    background-color: yellow;
+}
+a[href="http://www.dankicode.com"]{  /*[] = quando vc identifica um atributo no css*/
+    background-color: red;
+}
+a[href~="http://www.google.com"]{ /*o ~ seve para procurar a exata palavra google no atributo para moficala */
+    background-color: yellow;
+}
+a[href*="http://www.goo.com"]{ /*o * seve para procurar por uma parte da palavra goo no atributo para moficala */
+    background-color: yellow;
+}
+/* $(Quando terminamos com a palavra )  */

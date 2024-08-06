@@ -1,0 +1,136 @@
+body{
+    height: 100%;
+    width: 100%;    
+}
+
+header{
+    background-color: black;
+    background-size: 100px 100px;
+}
+
+header>img{
+    background-size: 100px 100px;
+}
+
+.gerar{
+    margin-top: 20px;
+    width: 515px;
+    height: 40px;
+    background-color: rgb(69, 83, 240);
+    color: white;
+    border-radius: 5px;
+    margin-left: 7%;
+}
+.gerar:hover{
+    background-color: rgb(44, 60, 241);
+    margin-left: 7%;
+}
+
+label{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 8%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+}
+
+
+
+input{
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+input:hover{
+    /*position:absolute;*/
+    border-radius: 5px;
+    width: 500px;
+    border: none;
+    border: 2px solid gray;
+    
+    border-radius: 5px;
+}
+
+.obrigatorio{
+    font-size: 15px;
+    margin-right:380px ;
+}
+
+.number{
+    margin-top: 20px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.post{
+    margin-top: 20px;
+}
+
+.obrigatorio{
+    margin-left: -750px;
+    margin-bottom: 7%;
+}
+label>p{
+    
+    font-size: 20px;
+}
+
+p{
+    display: inline-block;
+    color: red;
+}
+
+.obrigatorio{
+    margin-left: -56%;
+}
+
+label{
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.buttonqr{
+    margin-top: 3%;
+    margin-left:39.5% ;
+    width: 135px;
+    background-color: rgb(69, 83, 240);
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+}
+.buttonqr:hover{
+    background-color: rgb(44, 60, 241);
+}
+
+
+fieldset{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 600px;
+    padding: 20px 40px;
+    font-size: 17PX;
+    color: grey;
+    border: 3px solid gray;
+    
+}
+
+.qrcode{
+    margin-top: 15%; 
+    border-color: gray;
+    margin-left:38% ;
+}
+

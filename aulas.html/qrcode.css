@@ -1,0 +1,128 @@
+body{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+button{
+    margin-top: 20px;
+    width: 515px;
+    height: 40px;
+    background-color: rgb(69, 83, 240);
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(44, 60, 241);
+}
+
+.name>label{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right:385px;
+    border-radius: 25px;
+}
+
+.number>label{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-right:407px; 
+}
+
+.email>label{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right:422px;
+    
+}
+
+.post>label{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right:430px;
+    
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 500px;
+    border-radius: 5px;
+}
+
+input:hover{
+    /*position:absolute;*/
+    border-radius: 5px;
+    width: 500px;
+    border: none;
+    border: 2px solid gray;
+    
+    border-radius: 5px;
+}
+
+.obrigatorio{
+    font-size: 15px;
+    margin-right:380px ;
+}
+
+.number{
+    margin-top: 20px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.post{
+    margin-top: 20px;
+}
+
+.obrigatorio{
+    margin-left: -750px;
+}
+label>p{
+    font-size: 20px;
+}
+
+.obrigatorio,p{
+    display: inline-block;
+    color: red;
+}
+
+label{
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.qrCode{
+    margin-top: 30px;
+    padding-left: 35%;
+    
+    
+    
+    
+    
+}
+fieldset{
+    width: 600px;
+    
+}
+
+/*    var vcard = "BEGIN:VCARD\n" +
+                "VERSION:3.0\n" + 
+                "N:" + name + "\n" +
+                "TEL;TYPE=CELL:" + number + "\n" +
+                "EMAIL:" + email + "\n" + 
+                "END:VCARD";
+
+    console.log(vcard)
+    var qrCode = new QRCode(document.getElementById("qrCode"),{     
+        text: vcard,
+        width: 156,
+        height: 156,
+        correctLevel: QRCode.CorrectLevel.H
+})
+}*/
+
